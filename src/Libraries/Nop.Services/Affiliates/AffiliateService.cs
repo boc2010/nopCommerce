@@ -7,6 +7,7 @@ using Nop.Core.Domain.Common;
 using Nop.Core.Domain.Orders;
 using Nop.Core.Domain.Seo;
 using Nop.Data;
+using Nop.Data.Extensions;
 using Nop.Services.Common;
 using Nop.Services.Seo;
 
@@ -76,7 +77,7 @@ namespace Nop.Services.Affiliates
                         orderby a.Id
                         where a.FriendlyUrlName == friendlyUrlName
                         select a;
-            var affiliate = await query.ToAsyncEnumerable().FirstOrDefaultAsync();
+            var affiliate = await query.GetFirstOrDefaultAsync();
 
             return affiliate;
         }

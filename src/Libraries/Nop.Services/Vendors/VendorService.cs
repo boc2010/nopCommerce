@@ -7,6 +7,7 @@ using Nop.Core.Domain.Catalog;
 using Nop.Core.Domain.Vendors;
 using Nop.Core.Html;
 using Nop.Data;
+using Nop.Data.Extensions;
 
 namespace Nop.Services.Vendors
 {

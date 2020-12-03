@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Nop.Core;
 using Nop.Core.Domain.Messages;
 using Nop.Data;
+using Nop.Data.Extensions;
 
 namespace Nop.Services.Messages
 {

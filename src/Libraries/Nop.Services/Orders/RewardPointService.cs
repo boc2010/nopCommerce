@@ -5,6 +5,7 @@ using Nop.Core;
 using Nop.Core.Domain.Customers;
 using Nop.Core.Domain.Orders;
 using Nop.Data;
+using Nop.Data.Extensions;
 using Nop.Services.Helpers;
 using Nop.Services.Localization;
 

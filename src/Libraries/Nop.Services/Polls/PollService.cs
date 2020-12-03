@@ -5,6 +5,7 @@ using Nop.Core;
 using Nop.Core.Domain.Catalog;
 using Nop.Core.Domain.Polls;
 using Nop.Data;
+using Nop.Data.Extensions;
 using Nop.Services.Stores;
 
 namespace Nop.Services.Polls
